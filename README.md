@@ -1,5 +1,6 @@
 <p>slを背景透過にしただけです。<br>
-Weztermだと使えなかった、失敗や、、、</p>
+Wezterm+pwsh+starshipだと動きませんが、<br>
+Wezterm+Nushell+starshipだとうまく透過します。</p>
 SL(1): Cure your bad habit of mistyping
 =======================================
 
