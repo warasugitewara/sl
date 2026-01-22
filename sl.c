@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
         }
     }
     initscr();
-    use_default_colors():
+    use_default_colors();
     signal(SIGINT, SIG_IGN);
     noecho();
     curs_set(0);
