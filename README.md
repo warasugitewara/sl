@@ -1,6 +1,4 @@
 slを背景透過にしただけです。
-windows用になっているので、Makefileとか戻せば、linux用にビルドできると思います。
-今の状態でできるのかは知りません
 
 SL(1): Cure your bad habit of mistyping
 =======================================
