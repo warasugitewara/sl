@@ -7,7 +7,7 @@
 #==========================================
 
 CC=gcc
-CFLAGS=-O -Wall
+CFLAGS=-O -Wall -I./PDCurses -L./PDCurses/wincon
 
 all: sl
 
