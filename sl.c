@@ -90,13 +90,19 @@ int main(int argc, char *argv[])
         }
     }
     initscr();
-    use_default_colors();
     signal(SIGINT, SIG_IGN);
     noecho();
     curs_set(0);
     nodelay(stdscr, TRUE);
     leaveok(stdscr, TRUE);
     scrollok(stdscr, FALSE);
+    if (has_colors()) {
+    start_color();           
+    use_default_colors();    
+    init_pair(1, COLOR_WHITE, -1);
+
+    attrset(COLOR_PAIR(1));
+    }
 
     for (x = COLS - 1; ; --x) {
         if (LOGO == 1) {
