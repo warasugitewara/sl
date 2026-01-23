@@ -47,4 +47,3 @@ Original sl: Copyright 1993,1998,2014 Toyoda Masashi (mtoyoda@acm.org)
 Python版 - 背景透過実装: warasugitewara
 
 
-<video src="https://github.com/user-attachments/assets/aefb9199-7615-4f36-8a77-8e0c543370d4">|
